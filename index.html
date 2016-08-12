@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+      <div class="container">
+
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+          <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="images\logo1.jpg" alt="eco"></a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Web Design</a>
+								</li>
+
+								<li>
+									<a href="#">Web Development</a>
+								</li>
+
+								<li>
+									<a href="#">SEO</a>
+								</li>
+								<li class="divider"></li>
+								<li class="dropdown-header">More Services</li>
+
+									<li>
+										<a href="#">Content Creation</a>
+									</li>
+
+									<li>
+										 <a href="#">Social Marketing</a>
+									 </li>
+										</ul><!---end dropdown-menu--->
+						</li>
+					</ul>
+
+					<form class="navbar-form pull-left">
+           <input type="text" class="form-contol" placeholder="Search this site..." id="searchInput">
+					 <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+				 </form><!--end navbar-form-->
+
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-refesh"></span> Update Profile</a>
+								</li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+								</li>
+								<li class="divider"></li>
+
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+								</li>
+							</ul>
+						</li>
+					</ul><!---end nav pull-right-->
+
+				</ul><!---end nav-->
+
+			</div><!---end nav-collapse--->
+
+			</div><!---end container--->
+
+			</div><!-- end navbar -->
+
+
+		<div class="carousel slide" id="myCarousel">
+
+			<!---Indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!---wrapper for slides--->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+
+					<div  class="carousel-caption">
+						<h4>Earth-friendly</h4>
+						<p>The simplest way to define what being eco friendly means is to say that it is the act of living with intent.</p>
+					</div><!---end carousel-caption-->
+				</div><!--end item--->
+
+				<div class="item" id="slide2">
+					<div  class="carousel-caption">
+						<h4>Eco-friendly</h4>
+						<p>Learning to consume items that cause minimal environmental harm.</p>
+					</div><!---end carousel-caption-->
+				</div><!--end item--->
+
+				<div class="item" id="slide3">
+					<div  class="carousel-caption">
+						<h4>Conserve Water and Electricity</h4>
+						<p> It takes energy to produce fresh water and electricity.</p>
+					</div><!---end carousel-caption-->
+				</div><!--end item--->
+			</div><!---end carousel-inner--->
+
+			<!--Controls--->
+       <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+         <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+		</div><!-- end myCarousel -->
+
+		<div class="jumbotron">
+  <h1>Eco Friendly</h1>
+  <p>The simplest way to define what being eco friendly means is to say that it is the act of living with intent. The intent is focused on not creating harm to environment, and to prevent as much harm from occurring to the environment through your interactions with it.</p>
+	<p>	<button type="button" class="btn btn-large btn-default" id="alertMe">Learn More...</buton>
+
+	<a href="" class="btn btn-large btn-primary">Click a nice big button</a>
+	<a href="" class="btn btn-large btn-link">Or a secondary link</a></p>
+</div>
+
+	<div class="row" id="bigCallout">
+		<div class="col-12">
+
+			<div class="alert alert-success alert-block fade in" id="successAlert">
+				<button type="button" class="close" data-hide="alert">&times;</button>
+
+				<h4>Success!</h4>
+				<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this bad boy.</p>
+				</div><!---end alert--->
+
+				<!---visible only on small devices--->
+
+      <div class="well well-small visible-sm">
+				<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+				</div><!--end well-small-->
+
+
+		</div><!--end col-12-->
+	</div><!--end bigCallout-->
+
+		</div><!-- end row -->
+
+
+		<div class="row" id="featuresHeading">
+
+		<div class="col-12">
+			<h2>More Features</h2>
+			<p class="lead">We all know why we need more trees on this planet. They give us oxygen, fruits, timber, prevent soil erosion, control floods, provide shelter to wildlife.</p>
+
+			<!---end col-12--->
+		</div><!-- end featuresHeading -->
+
+
+		<div class="row" id="features">
+     <div class="col-sm-4 feature">
+			 <div class="panel">
+				 <div class="panel-heading">
+					 <h3 class="panel-title">The Power of Earth</h3>
+				 </div><!---end panel-heading--->
+           <img src="images/01.jpg" alt="power" class="img-circle">
+
+					 <p>Geothermal energy is thermal energy generated and stored in the Earth. Thermal energy is the energy that determines the temperature of matter.</p>
+
+					 <a href="https://en.wikipedia.org/" target="_blank" class="btn btn-warning btn-block">Geothermal Energy</a>
+			 </div><!---end panel---->
+		 </div><!---end feature--->
+
+		 <div class="col-sm-4 feature">
+ 			<div class="panel">
+ 				<div class="panel-heading">
+ 					<h3 class="panel-title">Young Explorers</h3>
+ 				</div><!---end panel-heading--->
+ 					<img src="images\02.jpg" alt="Explorer" class="img-circle">
+
+ 					<p>Mind mapping is a presentation form of radiant thinking, utilizing lines, colors, characters, numbers, symbols, image, pictures or keywords.</p>
+
+ 					<a href="http://www.ccsenet.org/" target="_blank" class="btn btn-danger btn-block">Young Explorer</a>
+ 			</div><!---end panel---->
+ 		</div><!---end feature--->
+
+		<div class="col-sm-4 feature">
+		 <div class="panel">
+			 <div class="panel-heading">
+				 <h3 class="panel-title">Mapping the World</h3>
+			 </div><!---end panel-heading--->
+				 <img src="images\03.jpg" alt="World" class="img-circle">
+
+				 <p>A map is a graphic representation or scale model of spatial concepts. It is a means for conveying geographic information. Maps are a universal medium for communication, easily understood and appreciated by most people.</p>
+
+				 <a href="http://academic.emporia.edu/" target="_blank" class="btn btn-info btn-block">Map the World</a>
+		 </div><!---end panel---->
+	 </div><!---end feature--->
+	</div><!---end features-->
+
+
+
+		<div class="row" id="moreInfo">
+			<div class="col-sm-6">
+				<h3>Neat Tabbable Content</h3>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+						<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+						</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="tab1">
+									<h4><span class="glyphicon glyphicon--map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
+
+
+
+									<p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+
+									<p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+
+									</div><!--end tab-pane--->
+									<div class="tab-pane" id="tab2">
+										<h4>A Left Floated Picture <small>Using Placehold.it</small></h4>
+
+										<img src="http://placehold.it/140" class="thmbnail pull-left">
+
+										 <p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+
+										 <p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+
+										 <hr>
+
+										 <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window!</a>
+
+										 <div class="modal fade" id="myModal">
+											 <div class="modal-dialog">
+												 <div class="modal-content">
+													 <div class="modal-header">
+                             <button class="close" data-dismiss="modal">&times;</button>
+
+														 <h4 class="modal-title">A Modal Window</h4>
+													 </div><!--end modal-header-->
+													 <div class="modal-body">
+
+														 <h4>Text in a Modal</h4>
+
+														 <p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+
+														 <h4>Popovers in a Modal</h4>
+														 <a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it!" data-content="I knew you would.">Don't click this button</a>
+
+														 <h4>Tooltips in a Modal</h4>
+														 <a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="" data-original-title="Woohoo!" rel="tooltip">this one</a>!
+
+														 <hr>
+
+														 <p><small class="text-muted">PS. This form doesn't do anything. Just a heads up.</small></p>
+
+														 <form class="form-horizontal">
+															 <div class="form-group">
+																 <label class="col-lg-2 control-label" for="inputName">Name</label>
+
+																 <div class="col-lg-10">
+																	 <input class="form-control" id="inputName" placeholder="Name" type="text">
+																 </div>
+															 </div>
+
+															 <div class="form-group">
+																 <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+
+																 <div class="col-lg-10">
+																	 <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+																 </div>
+															 </div>
+
+															 <div class="form-group">
+																<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+
+																<div class="col-lg-10">
+																	<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+																	<button class="btn btn-success pull-right" type="submit">Send!</button>
+																</div>
+															</div>
+ 													 </form>
+
+														</div><!---end modal-body-->
+													 <div class="modal-footer">
+														 <button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+													 </div><!---end modal-footer--->
+
+												 </div><!--end modal-content-->
+											 </div><!---end modal-dialog-->
+										 </div><!---end myModal--->
+
+								</div><!--end tab-pane--->
+						</div><!---end tab-content--->
+
+				</div><!---end tabbable-->
+			</div><!---end col-sm-6-->
+
+			<div class="col-sm-6">
+				<h3>Some Text Info</h3>
+				<p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.
+
+					<h4>A List Group</h4>
+
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Kale</h4>
+							<p class="list-group-item-text">Kale or borecole is a vegetable with green or purple leaves, in which the central leaves do not form a head.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Carrots</h4>
+							<p class="list-group-item-text">The carrot is a root vegetable, usually orange in colour, though purple, red, white, and yellow exists. It has a crisp texture when fresh.</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Steel-cut oats</h4>
+							<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in scotland and Ireland to make porridge.</p>
+
+						</a>
+					</div><!---list-group-->
+
+					<h5>A small heading</h5>
+					<p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+				</div><!---end col-sm-6--->
+		</div><!---end moreInfo-->
+
+		<hr>
+
+			<div class="row" id="moreCourses">
+     <div class="col-12">
+			 <h3>Saves the Trees</h3>
+			 <div class="thumbnails row">
+				 <div class="embed-responsive embed-responsive-4by3 col-6">
+					 <video src="Video/Back to the Start.mp4" width="570" height="500" autoplay="true"></video>
+				 </div>
+
+					<div class="col-6">
+           <div class="thumbnail">
+ 						<img src="images\images (3).jpg" alt="Eco Friendly Homes">
+
+
+ 						<div class="caption">
+ 							<h3>Eco Friendly Homes</h3>
+
+                 <p>We all know why we need more trees on this planet. They give us oxygen, fruits, timber, prevent soil erosion, control floods, provide shelter to wildlife. Massive scale deforestation in last couple of decades has reduced forest area by significant percentage. The need of hour is to work with environmental groups to educate more people and  plant more trees so as to make this planet clean and eco-friendly.</p>
+
+								 <p><a href="http://www.conserve-energy-future.com/" class="btn btn-primary btn-small" target="_blank">save trees</a> <a href="http://www.conserve-energy-future.com/" target="_blank" class="btn btn-small btn-link">Learn more</a></p>
+
+ 						</div><!---end caption--->
+ 					</div><!---end thumbnil-->
+ 					</div><!---end col-6-->
+			 </div><!---end row--->
+		 </div><!--end col-12-->
+	 </div><!---end moreCourses-->
+
+		</div><!-- end container -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2014 {Chandan}</h6>
+					</div><!---end col-sm-2-->
+
+					<div class="col-sm-4">
+						<h6>About Us</h6>
+						<p>Lorem Tumblr gluten-free eiusmod, keytar duis dolore aesthetic anim. Blog adipisicing meh placeat lo-fi. Marfa etsy umami mollit hoodie, intelligentsia ramps. Fanny pack literally next level, ugh forage VHS plaid everyday carry. Qui thundercats fugiat, wayfarers slow-carb deep v placeat magna dolor green juice.</p>
+						</div><!---end col-sm-4-->
+
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#"></a>Home</li>
+							<li><a href="#"></a>Services</li>
+							<li><a href="#"></a>Links</li>
+							<li><a href="#"></a>Contacts</li>
+						</ul>
+					</div><!---end col-sm-2-->
+
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#"></a>Twitter</li>
+							<li><a href="#"></a>Facebook</li>
+							<li><a href="#"></a>Google</li>
+						</ul>
+					</div><!---end col-sm-2-->
+
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Brad</h6>
+						</div><!---end col-sm-2-->
+				</div><!---end row-->
+				</div><!---end container--->
+
+		</footer>
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
